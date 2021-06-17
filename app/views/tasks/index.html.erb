@@ -1,8 +1,8 @@
 <h1>タスク一覧</h1>
 <% if current_user.try(:admin?) %>
-  <h1>tasks_admin</h1>
+  <h1>Admin</h1>
 <% else %>
-  <h1>Tasks</h1>
+  <h1>Others</h1>
 <% end %>
 
 <table>
